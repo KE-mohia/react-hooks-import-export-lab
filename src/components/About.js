@@ -1,4 +1,9 @@
 import React from "react";
+import{ image }from "../data/user";
+import NavBar from "./NavBar";
+
+console.log(image)
+
 
 function About() {
   return (
@@ -9,3 +14,4 @@ function About() {
     </div>
   );
 }
+export default NavBar;
